@@ -18,6 +18,10 @@ class Player
     "#{name}: #{life_string.chomp}"
   end
 
+  def lives_count
+    @lives
+  end
+
   def take_life
     @lives -= 1
   end

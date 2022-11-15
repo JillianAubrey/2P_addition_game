@@ -1,6 +1,11 @@
 require './player'
 require './question'
 require './turn'
+require './game'
+
+# Start a new game
+Game.new.run
+
 
 ####################
 # Player test code #
@@ -39,6 +44,6 @@ require './turn'
 ##################
 # Turn Test Code #
 ##################
-player = Player.new(1)
-Turn.new(player).run
-puts player.lives
+# player = Player.new(1)
+# Turn.new(player).run
+# puts player.lives
